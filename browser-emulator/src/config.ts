@@ -1,5 +1,5 @@
 export const SERVER_PORT = process.env.SERVER_PORT || 5000;
-
+export const OPENVIDU_CERTTYPE = process.env.OPENVIDU_CERTTYPE;
 
 // selfsigned environmets will be rejected. This will only work with secure environments
 // Adding '{rejectUnauthorized: false}'  in the construcor of the WebSocket in this line
